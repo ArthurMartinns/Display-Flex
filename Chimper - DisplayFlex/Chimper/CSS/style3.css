@@ -1,0 +1,252 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Cima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+   margin-left: 16%;  
+}
+#Cimadireita{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 36%;
+    gap: 10px;
+    background-color: #ffffff;
+}
+.icons{
+    fill: #0c0b59;
+    padding-left: 10px;
+}
+.ci{
+    margin-left: 15px;
+}
+header{
+    border: solid gray 1px;
+    background-color: #ffffff;
+}
+h1{
+    font-size: 32px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#listacabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.lista{
+    padding-left: 30px;
+}
+.lista1{
+    padding-left: 30px;
+    color: #000000;
+}
+#li{
+    color: black;
+}
+strong{
+    color: #4d4d4d;
+}
+.lista1:hover{
+    color: #0c0b59;
+
+}
+a{
+    color: #0c0b59;
+    fill: #0c0b59;
+}
+
+section{
+    height: 400vh;
+    margin-top: 85vh;
+    background-color: #ffffff;
+}
+body{
+    background-image: url(/Chimper/Assets/hero_1.jpg);
+    background-repeat: no-repeat ;
+    width: 100%;
+    background-size:100% ;
+    background-attachment:fixed ;
+    background-color: rgb(0 ,  0 , 0,  0.5);
+    background-blend-mode:multiply ;
+    backdrop-filter: blur(3px);
+    
+}
+#titulo{
+    font-size: 48px;
+    color: #ffffff;
+    margin:0px 0px 8px ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#section2{
+    height: 200vh;
+    margin-top: 45vh;
+    background-color: #ffffff;
+}
+
+#muitasimagens{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr  ;
+    gap: 2%;
+    margin-left : 7vw ;
+    padding-top: 3vh;
+}
+.mtsi{
+    width: 27vw;
+}
+
+#section3{
+    height: 150vh;
+    margin-top: 45vh;
+    background-color: #ffffff;
+}
+.terceiraservices{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+#gridterceira{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    padding-top: 10vh;
+}
+#alinhar{
+    display: flex;
+    flex-direction: row;
+}
+#flex1{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+}
+#section4{
+    height: 150vh;
+    margin-top: 50vh;
+    background-color: #ffffff;
+}
+#quarta{
+    font-size: 32px;
+    color:#0d0cb5;
+    margin: 0px 0px 8px;
+    padding-left: 20vw;
+    padding-top: 10vh;
+}
+#quartaparte{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    -webkit-padding-start: 20vw;
+    padding-top: 5vh;
+}
+#tamanhoimg{
+    height:300px ;
+    position: relative;
+    bottom: 10vh;
+    left: 8vw;
+}
+#quarta1{
+    font-size: 32px;
+    color:#0d0cb5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagens4{
+    border-radius: 30px;
+    height: 100px;
+}
+.icons4{
+    fill: #ffffff;
+    background-color: #4d4d4d ;
+    height: 25px;
+    border-radius: 30px;
+}
+#iconspag4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#pagina4{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#pssss{
+    text-align: center;
+}
+#imagensquarta{
+    width: 10vw;
+}
+#section5{
+    height: 150vh;
+    margin-top: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    
+}
+.imgs5{
+    height: 200px;
+    width: 300px;
+}
+#quintablog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    text-align: start;
+    margin-left: 2vw;
+    text-align: start;
+    
+}
+#gridquintaa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15PX;
+    margin-left: -15px; 
+}
+.mainbloco{
+    display: flex;
+    position: relative;
+    width: 50%;
+    left: 10vw;
+    top: 10vh;
+    gap: 40px;
+    width: auto;
+}
+#whitee{
+    border: #4d4d4d 1px;
+
+
+}
+#rowquinta{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 10vw;
+    top: 10vh;
+}

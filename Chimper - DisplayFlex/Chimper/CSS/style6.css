@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    backdrop-filter: blur(0px);
+    background-size: 100%;
+    background-image: url(/Griddd/assents/hero_1.jpg.webp)
+}
+
+#cabecalho{
+    background-color: white;
+    height: 5vh;
+    padding-left: 21vw;
+    padding-top: 12px;
+    border: solid rgb(231, 231, 231) 1px;
+    
+}
+
+li{
+    list-style: none;
+    font-family:  'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    list-style: none;
+
+   
+}
+
+.primeira{
+    display: flex;
+}
+
+#phone{
+    margin-right: 2vw ;
+}
+
+#email{
+    margin-right: 30vw;
+}
+
+.icons{
+    margin-right: 1vw;
+    fill: rgb(20, 20, 202) ;
+    cursor: pointer;
+}
+
+.icons:hover{
+    fill: rgb(12, 12, 99) ;
+
+}
+
+.liheader{
+    list-style: none;
+    font-family:  'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 2vw;
+    margin-top: 15px;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+    list-style: none;
+
+
+}
+
+.liheader:hover{
+    color: rgb(67, 67, 207);
+    transition: 0.3s;
+
+}
+
+ul{
+    display: flex;
+
+}
+
+header{
+    background-color: white;
+    height: 9vh;
+    padding-top: 2vh;
+    padding-left: 21vw;
+}
+
+span{
+    color: rgb(20, 20, 202);
+}
+
+#titleheader{
+    list-style: none;
+    font-family:  'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin-right: 23vw;
+    
+
+}
+
+section{
+    background-color: rgb(247, 247, 247);
+    height: 100vh;
+    margin-top: 35vh;
+    padding-top: 8vh;
+}
+
+nav{
+    background-color: white;
+    height: 78vh;
+    padding: 20px;
+    
+
+}
+
+
+
+
+label{
+    color: rgb(0, 0, 0);
+    font-family:'Quicksand', sans-serif;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 20px;
+    width: 14vw;
+    height: 4vh;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 12px;
+   
+}
+
+input:hover{
+    border: solid #0d0cb5 1px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first{
+    display: flex;
+    
+}
+
+.main{
+    width: 20vw;
+    height: 60vh;
+    margin-left: 20vw;
+    display: flex;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#lblemail{
+    width: 30vw;
+}
+
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+#lblsub{
+    width: 30vw;
+
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+#lblmsn{
+    width: 30vw;
+    height: 28vh;
+
+}
+
+
+button{
+    background-color: #0d0cb5;
+    color: white;
+    font-family:'Quicksand', sans-serif  ;
+    border-radius: 25px;
+    width: 8vw;
+    height: 5vh ;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #121283;
+    transition: 0.2s;
+}
+
+h4{
+    color:rgb(0, 0, 0);
+    font-family:'Quicksand', sans-serif ;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.textinhos{
+    
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 25vh;
+    margin-left: 2vw;
+    
+}
+
+.textinhos>p{
+    color: #0d0cb5;
+    font-family:'Quicksand', sans-serif
+}
+
+#descrição{
+    color: #000000;;
+    font-family:'Quicksand', sans-serif ;    
+}
+
+.tituloo{
+    color: #000000;;
+    font-family:'Quicksand', sans-serif ; 
+    margin-bottom: 4vh;
+
+}
+
+footer{
+    height: 70vh;
+    background-color: rgb(56, 56, 56);
+    
+    display: flex;
+   
+}
+
+.textos{
+    font-family: 'Quicksand', sans-serif; 
+    margin-top: 12vh;
+    text-align: center;
+    width: 45vw;
+    margin-left: 26vw;
+
+}
+
+.textos>h1{
+    font-size: 64px;
+    margin-bottom: 5vh;
+}
+
+.textos>p{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.foot{
+    font-family: 'Quicksand', sans-serif;  
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    margin-right: 8vw;
+    
+    
+
+
+}
+
+.foot>p{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.foot>p:hover{
+    color: white;
+    transition: .3s;
+}
+
+.foot>h1{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+
+.mainn{
+   
+    width: 100%;
+    height: 20vh;
+    margin-top: 16vh;
+    display: flex;
+    padding-left: 20vw;
+}
+
+span{
+    fill: rgb(173, 173, 173);
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+span:hover{
+    fill: white;
+    transition: .3s;
+}
+
+.btnn>h1{
+    font-family:'Quicksand', sans-serif ;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 2vh;
+
+}
+
+.btnn>input{
+    border-radius: 20px 0px 0px 20px;
+    height: 4vh;
+    width: 10vw;
+    border: solid 1px #838383;
+    background-color: rgb(56, 56, 56);
+    padding: 10px ;
+    color: white;
+
+
+}
+
+.btnn>button{
+    border-radius: 0px 20px 20px 0px;
+    height: 4vh;
+    width: 4vw;
+    border: none;
+    background-color: #0d0cb5;
+    color: white;
+    font-family: 'Quicksand', sans-serif;   
+    margin-left: -5px;
+    
+}
+
+.blocotxt_2{
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 30vh;
+    padding: 25px;
+    margin-top: 3vh;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 16px;
+    line-height: 28px;
+}
+#section6{
+    height: 100vh;
+    margin-top: 65vh;
+    background-color: #ffffff;
+}
+
+#Cima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+   margin-left: 16%;  
+}
+#Cimadireita{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 36%;
+    gap: 10px;
+    background-color: #ffffff;
+}
+.icons{
+    fill: #0c0b59;
+    padding-left: 10px;
+}
+.ci{
+    margin-left: 15px;
+}
+header{
+    border: solid gray 1px;
+    background-color: #ffffff;
+}
+h1{
+    font-size: 32px;
+}

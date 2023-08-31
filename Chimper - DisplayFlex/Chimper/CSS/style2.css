@@ -1,0 +1,113 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Cima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+   margin-left: 16%;  
+}
+#Cimadireita{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 36%;
+    gap: 10px;
+    background-color: #ffffff;
+}
+.icons{
+    fill: #0c0b59;
+    padding-left: 10px;
+}
+.ci{
+    margin-left: 15px;
+}
+header{
+    border: solid gray 1px;
+    background-color: #ffffff;
+}
+h1{
+    font-size: 32px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#listacabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.lista{
+    padding-left: 30px;
+}
+.lista1{
+    padding-left: 30px;
+    color: #000000;
+}
+#li{
+    color: black;
+}
+strong{
+    color: #4d4d4d;
+}
+.lista1:hover{
+    color: #0c0b59;
+
+}
+a{
+    color: #0c0b59;
+    fill: #0c0b59;
+}
+
+section{
+    height: 400vh;
+    margin-top: 85vh;
+    background-color: #ffffff;
+}
+body{
+    background-image: url(/Chimper/Assets/hero_1.jpg);
+    background-repeat: no-repeat ;
+    width: 100%;
+    background-size:100% ;
+    background-attachment:fixed ;
+    background-color: rgb(0 ,  0 , 0,  0.5);
+    background-blend-mode:multiply ;
+    backdrop-filter: blur(3px);
+    
+}
+#titulo{
+    font-size: 48px;
+    color: #ffffff;
+    margin:0px 0px 8px ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#section2{
+    height: 200vh;
+    margin-top: 45vh;
+    background-color: #ffffff;
+}
+
+#muitasimagens{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr  ;
+    gap: 2%;
+    margin-left : 7vw ;
+    padding-top: 3vh;
+}
+.mtsi{
+    width: 27vw;
+}
